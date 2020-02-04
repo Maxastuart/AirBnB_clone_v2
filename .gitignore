@@ -1,7 +1,7 @@
 # Ignore all
 *
 
-# Unignore all with extensions
+# Unignore all files with extensions
 !*.*
 !*AUTHORS
 
@@ -36,3 +36,5 @@
 .DS_Store
 .DS_Store?
 ._*
+100-dump.sql
+.vs*
