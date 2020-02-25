@@ -6,8 +6,9 @@ app = Flask(__name__)
 
 
 @app.route("/")
+@app.route("/airbnb-onepage/")
 def index():
     return "Hello HBNB!"
 
 
-app.run(debug=True, strict_slashes=False, port=5000, host='0.0.0.0')
+app.run('0.0.0.0', 5000)
